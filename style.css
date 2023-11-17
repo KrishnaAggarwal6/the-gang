@@ -9,6 +9,12 @@ h1{
     font-size: 50px;
 }
 
+
+h2{
+    font-weight: 800;
+    font-size: 50px;
+}
+
 h3{
     font-weight: bold;
     size: 30px;
@@ -70,7 +76,7 @@ a.cta.alt, button.cta.alt{
 }
 
 .character1{
-    background: url(Images/circle-guy.png) no-repeat 0;
+    background: url(Images/circle-guy.png) no-repeat 0 0;
     background-size: 100%;
     width: 363px;
     height: 344px;
@@ -79,7 +85,7 @@ a.cta.alt, button.cta.alt{
     
 }
 .character2{
-    background: url(Images/eish-guy.png) no-repeat 0;
+    background: url(Images/eish-guy.png) no-repeat 0 0;
     background-size: 100%;
     width: 309px;
     height: 423px;
@@ -89,11 +95,67 @@ a.cta.alt, button.cta.alt{
 
 }
 .character3{
-    background: url(Images/hat-guy.png) no-repeat 0;
+    background: url(Images/hat-guy.png) no-repeat 0 0;
     background-size: 100%;
     width: 297px;
     height: 403px;
     position: absolute;
     top: 20%;
     right: 32%;
+}
+
+nav{
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, .2);
+    position: sticky;
+    top: 0;
+}
+
+nav .logo{
+    display: block;
+    width: 300px;
+    height: 40px;
+    position: absolute; top: 50%;
+    margin-top: -20px;
+    margin-left: 30px;
+    background: url(Images/logo.png)no-repeat 0 0;
+    background-size: 100%;
+    overflow: hidden;
+    text-indent: -999px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0 20px 0 0;
+}
+nav ul li{
+    margin: 0;
+    padding: 0;
+    display: block;
+    float: right;
+}
+
+nav ul li a{
+    display: block;
+    height: 100%;
+    box-sizing: border-box;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding: 35px 10px;
+    line-height: 30px;
+}
+
+.more-info{
+    text-align: center;
+}
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0;
+
 }
